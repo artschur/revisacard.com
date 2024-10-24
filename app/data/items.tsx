@@ -26,7 +26,7 @@ export const items = [
     },
     {
       title: "Economia de Tempo",
-      description: "Estude de forma inteligente: 2 horas com flashcards equivalem a 6 horas de revisão tradicional.",
+      description: "Estude de forma inteligente: 2 horas com flashcards equivalem a mais de 8 horas de revisão tradicional.",
       url: 'https://images.unsplash.com/photo-1539800644988-3424dd648c2b?q=80&w=3318&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       icon: <IconClock className="h-4 w-4 text-neutral-500" />,
     },

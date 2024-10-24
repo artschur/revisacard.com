@@ -34,10 +34,10 @@ const CARDS = [
   {
     id: 0,
     name: "Manu Aurora",
-    designation: "Medicina na USP ⚕️",
+    designation: "Medicina na USP 👩🏻‍⚕️",
     content: (
       <p>
-        O RevisaENEM fez eu <Highlight>organizar meus estudos</Highlight>.
+        O RevisaCard fez eu <Highlight>organizar meus estudos</Highlight>.
         O método de repetição espaçada foi muito importante na hora da prova
       </p>
     ),
@@ -48,8 +48,8 @@ const CARDS = [
     designation: "Economia na Alemanha 📈",
     content: (
       <p>
-        Eu sempre fui aquele aluno que estudava muito, mas na hora da prova dava branco.
-        Com os flashcards, finalmente <Highlight>consegui fixar o conteúdo de verdade. </Highlight>
+        Sempre fui aquele aluno que estudava muito, mas na hora da prova dava branco.
+        Com os flashcards, finalmente consegui <Highlight> fixar o conteúdo e passar pelo ENEM.</Highlight>
       </p>
     ),
   },
@@ -59,7 +59,7 @@ const CARDS = [
     designation: "Medicina na UFRJ 🩻",
     content: (
       <p>
-        Com os flashcards do RevisaENEM, eu consegui memorizar <Highlight>mais conteudo, mais rápido!</Highlight>
+        Com os flashcards do RevisaCard, eu consegui memorizar <Highlight>mais conteudo, mais rápido!</Highlight>
       </p>
     ),
   },
