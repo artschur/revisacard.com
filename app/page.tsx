@@ -17,7 +17,7 @@ export default function Home() {
         com nossos flashcards inteligentes.
       </p>
 
-      <HoverBorderGradientDemo text="Aprender de forma eficiente" emoji="🧠" url="https://pay.kiwify.com.br/MDTtrOi"/>
+      <HoverBorderGradientDemo text="Aprender de forma eficiente" emoji="🧠" url="https://pay.kiwify.com.br/vSzcHhv"/>
         {/* <p className="md:mx-auto mt-24 mb-8 text-3xl md:text-5xl mx-8 font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
           Revise <Highlight className="rounded-lg"> 3x mais rápido</Highlight> e garanta sua vaga na universidade. Porque sabemos que tempo importa.
         </p> */}
@@ -34,13 +34,12 @@ export default function Home() {
               </p> */}
 
         <div className="mt-10">
-          <HoverBorderGradientDemo text="Quero ser aprovado" emoji="🏆" url="https://pay.kiwify.com.br/MDTtrOi"/>
+          <HoverBorderGradientDemo text="Quero ser aprovado" emoji="🏆" url="https://pay.kiwify.com.br/vSzcHhv"/>
         </div>
 
         <p className="md:mx-auto md:mt-24 mb-8 text-[2.3rem] leading-tight md:text-5xl  font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
           Quer saber o segredo dos alunos com as melhores notas? <br />
           {/* <span className="mt-2 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-700">Repetição espaçada</span> */}
-
         </p>          
         <span className="text-[2.0rem] md:mx-auto md:mb-32 mb-8 leading-none md:text-[3rem] font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-700">
           Teste você mesmo.
@@ -51,13 +50,26 @@ export default function Home() {
                 <FlashcardStack/>
               </div>
               
+          {/* <p className="md:mx-auto md:mt-24 text-[2.3rem] leading-tight md:text-[3rem]  font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
+          Seu sucesso não precisa ser complicado.
+          <span className="mt-2 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-700">Repetição espaçada</span> */}
+        {/* </p>  */}
+          <p className="md:mx-auto md:mt-24 text-[2.3rem] leading-tight md:text-[3rem]  font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
+          Nós fazemos os melhores flashcards, e o nosso objetivo é te aprovar < Highlight className="rounded-lg"> rápido</Highlight>, pois sabemos que tempo é tudo.<br />
+          {/* <span className="mt-2 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-700">Repetição espaçada</span> */}
+        </p> 
+          <p className="md:mx-auto mt-4 mb-8 text-[2.3rem] leading-tight md:text-[2rem]  font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
+          Cobrimos os conteúdos que mais caiem em todas as matérias, treine em qualquer lugar e não esqueça nenhum detalhe.
+          <br />
+          {/* <span className="mt-2 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-700">Repetição espaçada</span> */}
+        </p> 
 
-          <HoverBorderGradientDemo text="Quero passar no ENEM" emoji="📚" url="https://pay.kiwify.com.br/MDTtrOi"/>
+          <HoverBorderGradientDemo text="Quero passar no ENEM" emoji="📚" url="https://pay.kiwify.com.br/vSzcHhv"/>
 
         <p className="md:mx-auto  mb-8 text-3xl md:text-5xl font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
           Estude usando repetição espaçada.<br />
         </p>
-      <BentoSection link="https://pay.kiwify.com.br/MDTtrOi"/>
+      <BentoSection link="https://pay.kiwify.com.br/vSzcHhv"/>
       
     </div>
   );

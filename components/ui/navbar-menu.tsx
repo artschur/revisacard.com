@@ -25,7 +25,7 @@ export const MenuItem = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div className="relative font-semibold" onClick={() => location.href = 'https://pay.kiwify.com.br/MDTtrOi'}>
+    <div className="relative font-semibold" onClick={() => location.href = 'https://pay.kiwify.com.br/vSzcHhv'}>
       <motion.p
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"

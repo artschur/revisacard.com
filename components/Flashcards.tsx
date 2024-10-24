@@ -46,7 +46,7 @@ export const FlashcardStack = () => {
     <div className="relative h-80 w-80 md:h-96 md:w-96">
       {cards.map((card, index) => {
         if (currentCardIndex > 4) {
-          window.location.href = "https://pay.kiwify.com.br/MDTtrOi";
+          window.location.href = "https://pay.kiwify.com.br/vSzcHhv";
           return null;
         }
         return (
