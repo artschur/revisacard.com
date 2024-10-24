@@ -21,7 +21,7 @@ export const items = [
     {
       title: "Método Científico",
       description: "Repetição espaçada é comprovadamente o método mais eficiente para memorização de longo prazo.",
-      url: '/curveForgetting.png',
+      url: 'https://www.numerise.com/img/Spaced-practice-graph.png',
       icon: <IconBrain className="h-4 w-4 text-pink-500" />,
     },
     {
