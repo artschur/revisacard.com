@@ -54,11 +54,11 @@ export default function Home() {
           Seu sucesso não precisa ser complicado.
           <span className="mt-2 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-700">Repetição espaçada</span> */}
         {/* </p>  */}
-          <p className="md:mx-auto md:mt-24 text-[2.3rem] leading-tight md:text-[3rem]  font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
+          <p className="md:mx-auto md:mt-24 text-[2.0rem] leading-tight md:text-[3rem]  font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
           Nós fazemos os melhores flashcards, e o nosso objetivo é te aprovar < Highlight className="rounded-lg"> rápido</Highlight>, pois sabemos que tempo é tudo.<br />
           {/* <span className="mt-2 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-700">Repetição espaçada</span> */}
         </p> 
-          <p className="md:mx-auto mt-4 mb-8 text-[2.3rem] leading-tight md:text-[2rem]  font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
+          <p className="md:mx-auto mt-4 mb-8 text-[1.3rem] leading-tight md:text-[2rem]  font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
           Cobrimos os conteúdos que mais caiem em todas as matérias, treine em qualquer lugar e não esqueça nenhum detalhe.
           <br />
           {/* <span className="mt-2 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-700">Repetição espaçada</span> */}
