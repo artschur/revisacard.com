@@ -43,7 +43,7 @@ export const FlashcardStack = () => {
   };
 
   return (
-    <div className="relative h-72 w-80 md:h-96 md:w-96">
+    <div className="relative h-80 w-80 md:h-96 md:w-96">
       {cards.map((card, index) => {
         if (currentCardIndex > 4) {
           window.location.href = "https://example.com";
@@ -52,7 +52,7 @@ export const FlashcardStack = () => {
         return (
           <motion.div
             key={card.id}
-            className="absolute dark:bg-black bg-white h-72 w-80 md:h-96 md:w-96 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-white/[0.1] shadow-black/[0.1] dark:shadow-white/[0.05] flex flex-col justify-between"
+            className="absolute dark:bg-black overflow-hidden bg-white h-80 w-80 md:h-96 md:w-96 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-white/[0.1] shadow-black/[0.1] dark:shadow-white/[0.05] flex flex-col justify-between"
             style={{
               transformOrigin: "top center",
             }}

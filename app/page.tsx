@@ -1,12 +1,10 @@
 "use client";
 import { HeroSection } from "@/components/HeroSection";
 import { BentoSection } from "@/components/BentoSection";
-import { CardStack } from "@/components/ui/card-stack";
 import { CardStackDemo, Highlight } from "@/components/CardStack";
 import { FlashcardStack} from '@/components/Flashcards';
-import { MovingBorderDemo} from '@/components/MovingBorder';
 import { HoverBorderGradientDemo } from '@/components/GradButton';
-import { EyeCatchingButton_v2 } from "@/components/EyeCatchingButton";
+
 
 export default function Home() {
   return (
@@ -47,7 +45,7 @@ export default function Home() {
           </span> 
           {/* <span className="mt-2 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-700">Repetição espaçada</span> */}
         
-              <div className="h-[20rem] flex items-center justify-center w-full md:mb-16">
+              <div className="h-[25rem] flex items-center justify-center w-full mb-8 md:mb-16">
                 <FlashcardStack/>
               </div>
               
