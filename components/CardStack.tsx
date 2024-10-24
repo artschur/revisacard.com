@@ -48,8 +48,8 @@ const CARDS = [
     designation: "Economia na Alemanha 📈",
     content: (
       <p>
-        Sempre fui aquele aluno que estudava muito, mas na hora da prova dava branco.
-        Com os flashcards, finalmente consegui <Highlight> fixar o conteúdo e passar pelo ENEM.</Highlight>
+        Sempre esquecia os detalhes na hora da prova.
+        Com os flashcards, finalmente <Highlight> fixei o conteúdo</Highlight> e consegui passar pelo ENEM.
       </p>
     ),
   },

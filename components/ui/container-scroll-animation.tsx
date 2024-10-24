@@ -38,7 +38,7 @@ export const ContainerScroll = ({
     <div
       className="h-[60rem] md:h-[70rem] flex items-center justify-center relative p-2 md:p-20"
       ref={containerRef}
-      onClick={() => {location.href = 'https://pay.kiwify.com.br/MDTtrOi'}}
+      onClick={() => {location.href = 'https://pay.kiwify.com.br/vSzcHhv'}}
     >
       <div
         className="py-10 md:py-40 w-full relative"
