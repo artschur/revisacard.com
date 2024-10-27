@@ -12,7 +12,7 @@ import {
 export const items = [
   {
     title: "Estude com Flashcards",
-    description: "Estude com a técnica de repetição espaçada, comprovada cientificamente para melhorar a retenção em até 50% em estudos de longo prazo.",
+    description: "Estude com a técnica de repetição espaçada, comprovada cientificamente para melhorar a retenção em até 50% em estudos.",
     url: 'https://images.unsplash.com/photo-1496469888073-80de7e952517?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     icon: <IconTrophy className="h-4 w-4 text-yellow-500" />,
   },
