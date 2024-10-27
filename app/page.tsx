@@ -91,11 +91,11 @@ export default function Home() {
       <div className="mt-8">
         <HoverBorderGradientDemo text="Quero usar essas técnicas" emoji="🚀" url="https://pay.kiwify.com.br/vSzcHhv" />
       </div>
-      <div className="md:mx-auto mb-4 md:mt-8 text-[2.0rem] leading-none md:text-[3rem] font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
+      <div className="md:mx-auto mb-4 md:mt-8 text-[2.0rem] leading-none md:text-[3rem] text-neutral-700 dark:text-neutral-200 max-w-7xl">
         <p className="md:mx-auto mt-4 md:mt-12 text-[2.0rem] md:text-[3rem] font-semibold text-neutral-700 dark:text-neutral-200 max-w-7xl">
           Por que usar?
         </p>
-        <ul className="md:mx-auto mb-16 leading-tight mt-4 text-[1.3rem] md:text-[2rem] font-semibold text-neutral-600 dark:text-neutral-200">
+        <ul className="md:mx-auto mb-16 leading-tight mt-4 text-[1.3rem] md:text-[2rem] text-neutral-600 dark:text-neutral-200">
           <li className="mt-8">
             Melhor Retenção: Estudos mostram que você pode reter até 50% a mais de informações com a repetição espaçada.
           </li>
