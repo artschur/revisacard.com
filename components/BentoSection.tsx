@@ -12,7 +12,7 @@ export const BentoSection = ({ link }: BentoProps) => {
   };
 
   return (
-    <BentoGrid className="max-w-7xl mx-auto">
+    <BentoGrid className="max-w-7x text-xl mx-auto">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}

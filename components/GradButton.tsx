@@ -14,7 +14,7 @@ const handleRedirect = (url: string) => {
 
 export function HoverBorderGradientDemo({ text, emoji, url }: HoverBorderGradientDemoProps) {
   return (
-    <div className="mb-32 flex justify-center text-center text-[1.5rem] md:text-3xl" onClick={() => handleRedirect(url)}>
+    <div className="mb-16 flex justify-center text-center text-[1.5rem] md:text-3xl" onClick={() => handleRedirect(url)}>
       <HoverBorderGradient
         containerClassName="rounded-xl"
         as="button"

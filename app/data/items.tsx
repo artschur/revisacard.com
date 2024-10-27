@@ -6,6 +6,10 @@ import {
     IconChartBarPopular,
     IconStar,
     IconRocket,
+    Icon360,
+    IconExposure,
+    IconAbacus,
+    IconAerialLift,
   } from "@tabler/icons-react";
 
 import { Skeleton } from "@/components/Skeleton";
@@ -13,40 +17,40 @@ import Image from "next/image";
 
 export const items = [
     {
-      title: "93% de Aprovação",
-      description: "Nossos alunos conquistaram aprovações nas principais universidades do país usando nosso método.",
+      title: "Estude com Flashcards",
+      description: "Estude com a técnica de repetição espaçada, comprovada cientificamente para melhorar a retenção em até 50% em estudos de longo prazo.",
       url: 'https://images.unsplash.com/photo-1496469888073-80de7e952517?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       icon: <IconTrophy className="h-4 w-4 text-yellow-500" />,
     },
     {
-      title: "Método Científico",
-      description: "Repetição espaçada é comprovadamente o método mais eficiente para memorização de longo prazo.",
-      url: 'https://www.numerise.com/img/Spaced-practice-graph.png',
+      title: "Validado por Harvard e Princeton",
+      description: " Pesquisas de Harvard e Princeton demonstram que a repetição espaçada pode melhorar as notas em até 30% em testes de longo prazo.",
+      url: 'https://images.unsplash.com/photo-1609345635744-a58486ce86cd?q=80&w=3311&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       icon: <IconBrain className="h-4 w-4 text-pink-500" />,
     },
     {
       title: "Economia de Tempo",
-      description: "Estude de forma inteligente: 2 horas com flashcards equivalem a mais de 8 horas de revisão tradicional.",
+      description: "2 horas com flashcards equivalem a mais de 8 horas de revisão tradicional.",
       url: 'https://images.unsplash.com/photo-1539800644988-3424dd648c2b?q=80&w=3318&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       icon: <IconClock className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: "+8.000 Alunos",
-      description: "Junte-se à maior e melhor comunidade de estudantes usando repetição espaçada para o ENEM.",
+      title: "+1 milhão de estudantes",
+      description: "Junte-se a mais de 1 milhão de estudantes ao redor do mundo que usam flashcards com repetição espaçada para melhorar o aprendizado e reter conteúdo de longo prazo.",
       url: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       icon: <IconUsers className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: "Resultados Comprovados",
-      description: "Aumento médio de 150 pontos na nota do ENEM após 1 mes de uso.",
+      title: "Resultados Reais",
+      description: "A repetição espaçada pode aumentar a retenção em até 50% e melhorar notas em 30%, comprovado por pesquisas de UC San Diego e Princeton.",
       url: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       icon: <IconChartBarPopular className="h-4 w-4 text-green-400" />,
     },
     {
-      title: "4.7 de 5 estrelas",
-      description: "Avaliação média dos nossos alunos, com mais de 3000 reviews positivos.",
+      title: "Metodologia Inovadoras",
+      description: "Utilizamos uma metodologia que combina visualização e repetição para maximizar a retenção e a compreensão do conteúdo.",
       url: 'https://images.unsplash.com/photo-1633723251072-b9cf36493637?q=80&w=3032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      icon: <IconStar className="h-4 w-4 text-blue-600" />,
+      icon: <IconAerialLift className="h-4 w-4 text-blue-600" />,
     },
     {
       title: "Comece Agora",
